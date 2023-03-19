@@ -1,0 +1,9 @@
+{
+  "extends": "@m7s/shared/configs/tsconfig.base.json",
+  "compilerOptions": {
+    "module": "esnext",
+    "isolatedModules": true,
+    "noEmit": true
+  },
+  "include": ["vue"]
+}

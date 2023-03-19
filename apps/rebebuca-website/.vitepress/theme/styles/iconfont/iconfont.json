@@ -1,0 +1,30 @@
+{
+  "id": "3224825",
+  "name": "m7s",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1261898",
+      "name": "linux",
+      "font_class": "linux",
+      "unicode": "e6c1",
+      "unicode_decimal": 59073
+    },
+    {
+      "icon_id": "4936967",
+      "name": "apple",
+      "font_class": "apple",
+      "unicode": "e87e",
+      "unicode_decimal": 59518
+    },
+    {
+      "icon_id": "11983514",
+      "name": "windows",
+      "font_class": "windows",
+      "unicode": "ea06",
+      "unicode_decimal": 59910
+    }
+  ]
+}

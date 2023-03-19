@@ -1,0 +1,134 @@
+.banner {
+  background-size: 100% auto;
+  display: flex;
+  justify-content: center;
+  .box {
+    // margin-top: 50px;
+    display: flex;
+    // width: 1400px;
+    width: 1200px;
+    justify-content: space-between;
+    color: #fff;
+    .left {
+      margin-top: 100px;
+      // height: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .item-1 {
+        width: 347px;
+        height: 74px;
+        font-size: 56px;
+        font-family: Microsoft YaHei-Regular, Microsoft YaHei;
+        font-weight: 400;
+        color: #ffffff;
+        line-height: 56px;
+        letter-spacing: 10px;
+      }
+      .item-2 {
+        margin-top: 10px;
+        font-size: 40px;
+        font-family: Microsoft YaHei-Regular, Microsoft YaHei;
+        font-weight: 400;
+        color: #ffffff;
+        line-height: 58px;
+        letter-spacing: 5px;
+      }
+      .item-3 {
+        margin-top: 36px;
+        width: 506px;
+        height: 40px;
+        font-size: 26px;
+        font-family: Microsoft YaHei-Regular, Microsoft YaHei;
+        font-weight: 400;
+        color: #ffffff;
+        line-height: 30px;
+        span {
+          color: #ffe300;
+        }
+      }
+      .item-4 {
+        margin-top: 30px;
+        width: 220px;
+        height: 68px;
+        background: url(/images/m7s/btn-bg.png) no-repeat;
+        background-size: contain;
+        font-size: 30px;
+        font-weight: normal;
+        color: #ffffff;
+        line-height: 68px;
+        text-align: center;
+        cursor: pointer;
+      }
+    }
+    .right {
+      width: 50%;
+      background: url(/images/logo.png) no-repeat;
+      background-size: contain;
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  #banner {
+    .box {
+      padding: 0 10px;
+      margin-top: 20px;
+      width: 100%;
+      display: flex;
+      color: #fff;
+      .left {
+        margin-top: 0px;
+        // width: 60%;
+        height: 100%;
+        display: flex;
+        .item-1 {
+          height: 100%;
+          font-size: 30px;
+          font-weight: 400;
+          color: #ffffff;
+          letter-spacing: 5px;
+          line-height: 1.5;
+        }
+        .item-2 {
+          height: 100%;
+          font-size: 22px;
+          font-weight: 400;
+          color: #ffffff;
+          margin-top: 10px;
+          line-height: 1.5;
+        }
+        .item-3 {
+          height: 100%;
+          margin-top: 10px;
+          height: 40px;
+          font-size: 18px;
+          font-weight: 400;
+          color: #ffffff;
+          line-height: 1.5;
+          span {
+            color: #ffe300;
+          }
+        }
+        .item-4 {
+          margin-top: 30px;
+          width: 134px;
+          height: 40px;
+          background: url(/images/m7s/btn-bg.png) no-repeat;
+          background-size: contain;
+          font-size: 22px;
+          font-weight: normal;
+          color: #ffffff;
+          line-height: 40px;
+          text-align: center;
+          cursor: pointer;
+        }
+      }
+      .right {
+        width: 50%;
+        background: url(/images/m7s/go-m7s.png) no-repeat;
+        background-size: contain;
+      }
+    }
+  }
+}
