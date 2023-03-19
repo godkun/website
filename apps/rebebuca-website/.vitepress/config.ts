@@ -22,7 +22,6 @@ export const sidebar = {
         { text: '新建-编辑-查找-删除分组', link: '/guide/新建-编辑-查找-删除分组' },
         { text: '新建-编辑-复制-删除ffmpeg命令', link: '/guide/新建-编辑-复制-删除ffmpeg命令' },
         { text: '新增-编辑-插入-删除ffmpeg命令参数', link: '/guide/新增-编辑-插入-删除ffmpeg命令参数' },
-        { text: '视频格式转换', link: '/guide/视频格式转换' },
         { text: 'ffmpeg命令-运行-停止-重启-清除输出日志', link: '/guide/ffmpeg命令-运行-停止-重启-清除输出日志' },
         { text: '分组监控', link: '/guide/分组监控' },
         { text: '配置', link: '/guide/config' },
