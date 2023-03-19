@@ -24,6 +24,12 @@ export const sidebar = {
         { text: '新增-编辑-插入-删除ffmpeg命令参数', link: '/guide/新增-编辑-插入-删除ffmpeg命令参数' },
         { text: 'ffmpeg命令-运行-停止-重启-清除输出日志', link: '/guide/ffmpeg命令-运行-停止-重启-清除输出日志' },
         { text: '分组监控', link: '/guide/分组监控' },
+        { text: '案例-视频格式转换', link: '/guide/案例-视频格式转换' },
+        { text: '案例-视频剪切', link: '/guide/案例-视频剪切' },
+        { text: '案例-分离视频音频流', link: '/guide/案例-分离视频音频流' },
+        { text: '案例-视频录制', link: '/guide/案例-视频录制' },
+        { text: '案例-推流', link: '/guide/案例-推流' },
+        { text: '案例-拉流', link: '/guide/案例-拉流' },
         { text: '配置', link: '/guide/config' },
         { text: '进群交流', link: '/guide/qun' }
       ]
