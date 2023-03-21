@@ -23,6 +23,7 @@
   "devDependencies": {
     "@types/markdown-it": "^12.2.3",
     "@types/node": "^16.9.1",
-    "less": "^4.1.2"
+    "less": "^4.1.2",
+    "markdown-it-custom-attrs": "^1.0.2"
   }
 }

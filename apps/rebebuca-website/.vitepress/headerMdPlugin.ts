@@ -12,6 +12,7 @@
 
 import MarkdownIt from 'markdown-it'
 import { MarkdownRenderer } from 'vitepress'
+import mdItCustomAttrs from 'markdown-it-custom-attrs'
 
 declare module 'vitepress' {
   interface Header {
@@ -21,6 +22,9 @@ declare module 'vitepress' {
 }
 
 export const headerPlugin = (md: MarkdownIt) => {
+  md.use(mdItCustomAttrs, 'image', {
+    'data-fancybox': 'gallery'
+  })
   const originalOpen = md.renderer.rules.heading_open!
   md.renderer.rules.heading_open = (tokens, i, ...rest) => {
     for (const child of tokens[i + 1].children!) {
