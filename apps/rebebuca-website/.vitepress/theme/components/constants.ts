@@ -13,7 +13,7 @@ const data = [
     children: [
       {
         name: 'Windows',
-        url: 'https://gitee.com/cuteyk/rebebuca-update/releases/download/1.0.0/rebebuca.msi.zip'
+        url: 'https://gitee.com/cuteyk/rebebuca-update/releases/download/1.0.0/Rebebuca.msi'
       },
       {
         name: 'Mac',
@@ -21,11 +21,11 @@ const data = [
       },
       {
         name: 'Mac(arm64)',
-        url: 'https://gitee.com/cuteyk/rebebuca-update/releases/download/1.0.0/Rebebuca.dmg'
+        url: 'https://gitee.com/cuteyk/rebebuca-update/releases/download/1.0.0/Rebebuca-aarch64.dmg'
       },
       {
         name: 'Linux',
-        url: 'https://gitee.com/cuteyk/rebebuca-update/releases/download/1.0.0/Rebebuca.dmg'
+        url: 'https://gitee.com/cuteyk/rebebuca-update/releases/download/1.0.0/rebebuca_amd64.deb'
       }
     ]
   },
